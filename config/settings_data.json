@@ -39,12 +39,13 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "Ссылки",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "link_list",
+            "disabled": true,
             "settings": {
               "heading": "Info",
               "menu": "footer"
@@ -53,7 +54,7 @@
           "footer-2": {
             "type": "text",
             "settings": {
-              "heading": "Our mission",
+              "heading": "Котакты",
               "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
             }
           }
