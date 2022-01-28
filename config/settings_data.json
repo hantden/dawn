@@ -66,10 +66,10 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_heading": "Подписаться на новости",
           "show_social": true,
           "enable_country_selector": false,
-          "enable_language_selector": false,
+          "enable_language_selector": true,
           "payment_enable": true,
           "margin_top": 48,
           "padding_top": 36,
