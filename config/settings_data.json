@@ -1,5 +1,6 @@
 {
   "current": {
+    "inputs_shadow_vertical_offset": 0,
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
