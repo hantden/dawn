@@ -20,6 +20,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Shop all",
             "button_link_1": "shopify:\/\/collections\/all",
@@ -37,8 +38,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/main_img_01_cut5.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
@@ -78,6 +79,85 @@
         "padding_bottom": 0
       }
     },
+    "1643390423afad7e9d": {
+      "type": "collection-list",
+      "blocks": {
+        "16433904230f2ec593-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "каталог"
+          }
+        },
+        "16433904230f2ec593-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "краулер"
+          }
+        },
+        "16433904230f2ec593-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "вантажівки"
+          }
+        },
+        "9af36075-05f3-4ecc-b10d-eaf089e7edfd": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "для-дрифту"
+          }
+        },
+        "926e9f45-6049-4f71-bc8e-cdefc91bee16": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "раллі"
+          }
+        },
+        "623fa573-6193-4071-9147-531064f6f0a6": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "спец-техніка"
+          }
+        },
+        "65e6435c-d78b-4948-b00c-e71909dba9e0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "шорт-корс"
+          }
+        },
+        "76d58922-4c89-4607-801d-8522f1d094d1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "шосейні"
+          }
+        },
+        "8b30ebf7-c794-4ca3-9afa-0a5f3246c9ac": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "баггі"
+          }
+        }
+      },
+      "block_order": [
+        "16433904230f2ec593-0",
+        "16433904230f2ec593-1",
+        "16433904230f2ec593-2",
+        "9af36075-05f3-4ecc-b10d-eaf089e7edfd",
+        "926e9f45-6049-4f71-bc8e-cdefc91bee16",
+        "623fa573-6193-4071-9147-531064f6f0a6",
+        "65e6435c-d78b-4948-b00c-e71909dba9e0",
+        "76d58922-4c89-4607-801d-8522f1d094d1",
+        "8b30ebf7-c794-4ca3-9afa-0a5f3246c9ac"
+      ],
+      "settings": {
+        "title": "Collections",
+        "image_ratio": "square",
+        "color_scheme": "background-1",
+        "swipe_on_mobile": false,
+        "show_view_all": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -97,6 +177,7 @@
     },
     "collage": {
       "type": "collage",
+      "disabled": true,
       "blocks": {
         "collection-0": {
           "type": "collection",
@@ -200,6 +281,7 @@
   "order": [
     "image_banner",
     "rich_text",
+    "1643390423afad7e9d",
     "featured_collection",
     "collage",
     "video",
