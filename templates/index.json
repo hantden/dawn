@@ -51,6 +51,7 @@
     },
     "rich_text": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "heading": {
           "type": "heading",
@@ -100,20 +101,20 @@
         "collection-0": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "каталог"
           }
         },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "монстр-трак-leadingstar",
             "second_image": false
           }
         },
         "collection-1": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "спец-техніка"
           }
         }
       },
