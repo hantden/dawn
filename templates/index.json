@@ -120,6 +120,7 @@
         },
         "65e6435c-d78b-4948-b00c-e71909dba9e0": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "шорт-корс"
           }
@@ -135,6 +136,12 @@
           "settings": {
             "collection": "баггі"
           }
+        },
+        "234f4248-efa1-42fc-bf43-0493f91f62ef": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "танки"
+          }
         }
       },
       "block_order": [
@@ -146,7 +153,8 @@
         "623fa573-6193-4071-9147-531064f6f0a6",
         "65e6435c-d78b-4948-b00c-e71909dba9e0",
         "76d58922-4c89-4607-801d-8522f1d094d1",
-        "8b30ebf7-c794-4ca3-9afa-0a5f3246c9ac"
+        "8b30ebf7-c794-4ca3-9afa-0a5f3246c9ac",
+        "234f4248-efa1-42fc-bf43-0493f91f62ef"
       ],
       "settings": {
         "title": "Collections",
