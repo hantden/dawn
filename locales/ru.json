@@ -430,7 +430,8 @@
     "checkout": {
       "contact": {
         "address1_label": "Отделение Новой Почты",
-        "address2_label": "Адрес (для курьерской доставки)"
+        "address2_label": "Адрес (для курьерской доставки)",
+        "optional_address2_label": "Адрес (для курьерской доставки)"
       }
     }
   }
