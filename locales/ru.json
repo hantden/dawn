@@ -425,5 +425,13 @@
       "copy_code_success": "Код скопирован",
       "print_gift_card": "Печать"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "address1_label": "Отделение Новой Почты",
+        "address2_label": "Адрес (для курьерской доставки)"
+      }
+    }
   }
 }
