@@ -432,6 +432,9 @@
         "address1_label": "№ отделения Новой Почты\/Укрпочты",
         "address2_label": "Адрес (для курьерской доставки)",
         "optional_address2_label": "Адрес (для курьерской доставки)"
+      },
+      "shipping": {
+        "free_rate_label": "-"
       }
     }
   }
