@@ -1,0 +1,113 @@
+{
+  "shopify": {
+    "sentence": {
+      "words_connector": ",",
+      "two_words_connector": "і",
+      "last_word_connector": ", і"
+    },
+    "checkout": {
+      "shipping": {
+        "title": "Доставка",
+        "shipping_method_title": "Спосіб доставки",
+        "waiting_on_rate_notice": "Отримання доступних варіантів вартості доставки...",
+        "waiting_on_pickup_location_notice": "Отримання списку доступних точок самовивезення.",
+        "no_rates_for_cart_or_destination_notice": "Немає доступних способів доставки для товарів у кошику або адреси",
+        "no_pickup_location_notice": "Принаймні один замовлений товар недоступний для самовивезення",
+        "no_rates_for_country_notice": "Немає даних про вартість доставки за цією адресою.",
+        "no_rates_contact_notice": "Зв'яжіться з нами, щоб дізнатися більше",
+        "free_rate_label": "-",
+        "cheapest_rate_label": "Сама низька ціна",
+        "please_enter_your_shipping_information_notice": "Введіть інформацію про доставку.",
+        "estimated_delivery_date_range": "%{ minimum}–%{ maximum} робочих днів.",
+        "shipping_line_phone_label": "Номер мобільного телефону (обов'язково)",
+        "shipping_line_phone": "Ваш кур'єр може використовувати цей номер, щоб зв'язатися з вами.",
+        "shipping_rate_discounted_amount": "До: %{original_amount}. Зараз: %{amount}",
+        "optional_shipping_line_delivery_instructions_label": "Інструкції з доставки (необов'язково)",
+        "estimated_delivery_date": {
+          "one": "Робочі дні: %{count}",
+          "other": "%{count} робочих днів.",
+          "few": "%{count} робочих днів.",
+          "many": "%{count} робочих днів."
+        },
+        "other_method": {
+          "zero": "Немає інших доступних варіантів",
+          "one": "Інші варіанти доступні: %{count}",
+          "other": "Доступно варіантів: %{count}, починаючи від",
+          "few": "Доступно варіантів: %{count}, починаючи від",
+          "many": "Доступно варіантів: %{count}, починаючи від"
+        },
+        "shipping_line_delivery_phone": "Ми можемо використовувати цей телефон для зв'язку з вами щодо доставки.",
+        "shipping_line_delivery_phone_label": "Номер мобільного телефону",
+        "shipping_line_delivery_instructions": "Введіть корисну інформацію, наприклад код домофону або інструкції, де залишити посилку.",
+        "local_delivery": "Місцева доставка",
+        "subscription_shipping": "Доставка по підписці",
+        "shipping_method_one_time_purchase_group_title": "Разова покупка",
+        "shipping_method_subscription_group_title": "Передплата",
+        "one_time_purchase_shipping": "Одна доставка",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "за %{count} доставку",
+            "other": "за певну кількість доставок (%{count})",
+            "few": "за певну кількість доставок (%{count})",
+            "many": "за певну кількість доставок (%{count})"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "кожен день",
+              "other": "кожні %{count} дн.",
+              "few": "кожні %{count} дн.",
+              "many": "кожні %{count} дн."
+            },
+            "week": {
+              "one": "щотижня",
+              "other": "кожні %{count} тиж.",
+              "few": "кожні %{count} тиж.",
+              "many": "кожні %{count} тиж."
+            },
+            "month": {
+              "one": "кожен місяць",
+              "other": "кожні %{count} міс.",
+              "few": "кожні %{count} міс.",
+              "many": "кожні %{count} міс."
+            },
+            "year": {
+              "one": "щороку",
+              "other": "кожні %{count} рік.",
+              "few": "кожні %{count} рік.",
+              "many": "кожні %{count} рік."
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} за доставку",
+          "prepaid_shipping_price_label": "%{shipping_price} за доставку x %{delivery_interval_count}",
+          "initial_order_discounted": "Перша доставка за %{discounted_shipping_cost}, потім — %{frequency_description}",
+          "prepaid_initial_order_discounted": "Перша доставка за %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Перша доставка за %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency}, потім — %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Перша доставка %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), потім — %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Увімкнено",
+          "recurring_order_shipping_price": "з %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Вартість з урахуванням першого замовлення плюс %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} за доставку) плюс %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Перше замовлення — безкоштовно",
+            "other": "Декілька перших замовлень (%{count}) — безкоштовно",
+            "few": "Декілька перших замовлень (%{count}) — безкоштовно",
+            "many": "Декілька перших замовлень (%{count}) — безкоштовно"
+          },
+          "free_for_first_n_order": {
+            "one": "За перше замовлення",
+            "other": "За кілька перших замовлень (%{count})",
+            "few": "За кілька перших замовлень (%{count})",
+            "many": "За кілька перших замовлень (%{count})"
+          }
+        },
+        "estimated_delivery_time": "Передбачуваний час доставки: %{time}",
+        "estimated_delivery_time_range": "Передбачуваний час доставки: %{min_time}-%{max_time}"
+      },
+      "change_currency": {
+        "credit_card_will_be_charged_html": "З вашої кредитної картки буде знято %{amount}",
+        "currency_button_label": "%{currency} (%{currency_symbol})"
+      }
+    }
+  }
+}
