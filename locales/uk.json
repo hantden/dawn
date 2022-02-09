@@ -366,7 +366,101 @@
         "card_issue_number_label": "Серійний номер",
         "card_issue_number_placeholder": "Серійний номер",
         "card_change_label": "Змінити",
-        "ends_with_label": "закінчується на %{last_digits}"
+        "ends_with_label": "закінчується на %{last_digits}",
+        "masked_digits_label": "•••• %{last_digits}",
+        "saved_by_payment_method": "Збережено %{payment_method}",
+        "pay_with_payment_method": "Сплатити через %{payment_method}",
+        "same_billing_address_label": "Збігається з адресою доставки",
+        "different_billing_address_label": "Використовувати іншу адресу виставлення рахунку",
+        "free_order_notice_html": "Товари у вашому замовленні надаються безкоштовно <strong>. Оплата не потрібна.",
+        "express_checkout_free_order": "Ми не стягуємо плату за безкоштовні замовлення",
+        "offsite_gateway_redirect_hint": "Натисніть «%{button_label}», щоб перейти на портал %{gateway_label} для безпечного завершення покупки.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label}, разом: %{total_shop_price}",
+        "billing_address_title": "Адреса виставлення рахунку",
+        "billing_address_description": "Виберіть адресу, яка відповідає вашій карті або способу оплати.",
+        "billing_address_description_no_shipping_address": "Вкажіть адресу, яка відповідає вашій карті або способу оплати.",
+        "no_js_credit_card_fields_redirect_hint": "Ви будете перенаправлені на сторінку введення платіжної інформації.",
+        "card_fields_container_prefix": "Контейнер поля для:",
+        "card_fields_processing_error": "Під час обробки платежу виникла проблема. Перезавантажте сторінку або перевірте підключення до Інтернету.",
+        "technical_error": "Ми не можемо зараз обробляти платежі через технічну проблему. Повторіть спробу за кілька хвилин.",
+        "no_method_error": "Цей магазин не сприймає зараз оплату.",
+        "not_configured_error": "Цей магазин не сприймає зараз оплату.",
+        "missing_credit_card_error": "Вкажіть інформацію про карту для завершення платежу",
+        "billing_address_not_supported_for_payment_method_error": "Цей спосіб оплати недоступний для вашої адреси виставлення рахунків та валюти. Використовуйте інший спосіб оплати.",
+        "generic_incorrect_card_info": "Не вдалося підтвердити вашу платіжну інформацію. Перевірте дані карти та повторіть спробу.",
+        "sofort_label": "Банківський переказ SOFORT",
+        "klarna_pay_later_label": "Сплатити пізніше за допомогою Klarna",
+        "klarna_pay_now_label": "Сплатити зараз за допомогою Klarna",
+        "bancontact_label": "Bancontact",
+        "eps_label": "eps-Überweisung",
+        "klarna_slice_it_label": "Кредитні кошти Klarna",
+        "ideal_label": "iDEAL",
+        "bank_picker_label": "Банк",
+        "change_currency_section_description": "Виберіть валюту",
+        "no_real_orders_dev_store": "Цей магазин не може приймати ці замовлення або справжні платежі.",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Суму замовлення покриває подарункова карта.",
+          "other": "Суму вашого замовлення покриває подарункові картки.",
+          "few": "Суму вашого замовлення покриває подарункові картки.",
+          "many": "Суму вашого замовлення покриває подарункові картки."
+        },
+        "card_fields_unavailable_html": {
+          "one": "Платежі за допомогою кредитних та дебетових карток на даний момент недоступні.<br><a href=\"%{current_url}\">Оновіть цю сторінку<\/a> або повторіть спробу пізніше.",
+          "other": "Платежі за допомогою кредитних та дебетових карток на даний момент недоступні.<br><a href=\"%{current_url}\">Оновіть цю сторінку<\/a> або використовуйте інший спосіб оплати.",
+          "few": "Платежі за допомогою кредитних та дебетових карток на даний момент недоступні.<br><a href=\"%{current_url}\">Оновіть цю сторінку<\/a> або використовуйте інший спосіб оплати.",
+          "many": "Платежі за допомогою кредитних та дебетових карток на даний момент недоступні.<br><a href=\"%{current_url}\">Оновіть цю сторінку<\/a> або використовуйте інший спосіб оплати."
+        },
+        "subscription_agreement_label_html": "Я розумію, що погоджуюсь із умовами використання підписки. Вона продовжуватиметься за вказаною ціною та з наведеною частотою до закінчення терміну дії\n<a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">або скасування<\/a>.",
+        "waiting_on_payment_methods": "Пошук доступних способів оплати.",
+        "apple_pay_payment_error": "Не вдалося здійснити платіж. Повторіть спробу або скористайтеся іншим способом оплати.",
+        "subscription_card_update_agreement_label": "Зміна способу оплати вплине на вашу передплату та майбутні періодичні платежі.",
+        "card_security_vault_notice": "Надайте свої дані для подальших сплат. Усі транзакції захищені та зашифровані.",
+        "taxes_not_included": "Податки не включені",
+        "no_taxes_banner_content": "З цього замовлення не стягуватимуться податки. Щойно буде сформовано суму, податки перестануть нараховуватися.",
+        "card_update_label": "Оновити дані картки",
+        "paypal": {
+          "connect": "Натисніть, щоб підключити обліковий запис PayPal."
+        },
+        "subscription_agreement_label": "Я розумію, що погоджуюсь із умовами використання підписки. Вона продовжуватиметься за вказаною ціною та з наведеною частотою до закінчення терміну дії або %{cancelled}.",
+        "subscription_agreement_cancelled": "скасовано",
+        "card_expired": "Термін дії минув",
+        "card_verification_confirm": "Введіть код безпеки картки для перевірки.",
+        "different_credit_card_label": "Використовувати іншу картку",
+        "ftd_vault_credit_card_label": "Зберегти дані кредитної картки для прискорення оформлення замовлень",
+        "delete_customer_mandate_modal_title": "Видалити картку?",
+        "delete_customer_mandate_modal_body": "Цю дію неможливо скасувати.",
+        "delete_customer_mandate_modal_confirm": "вилучити",
+        "delete_customer_mandate_modal_cancel": "Скасувати",
+        "apple": {
+          "connect": "Натисніть, щоб підключити обліковий запис PayPal.",
+          "not_available": "Apple Pay недоступний у вашому браузері. Щоб підключити обліковий запис Apple Pay, використовуйте браузер Safari на Вашому пристрої Apple.",
+          "email_connected": "Обліковий запис підключено"
+        },
+        "account_connected": "Обліковий запис підключено",
+        "billing_address_associated_with_mandate": "Використовуйте адресу, пов'язану з методом оплати",
+        "billing_address_associated_with_mandate_info": "Якщо ви бажаєте змінити адресу для виставлення рахунку, видаліть дані вашої кредитної картки та заново введіть їх.",
+        "maximum_vaulted_card_info": {
+          "one": "Максимальна кількість кредитних карток, які можна зберегти у вашому обліковому записі: %{count}.",
+          "other": "Максимальна кількість кредитних карток, які можна зберегти у вашому обліковому записі: %{count}.",
+          "few": "Максимальна кількість кредитних карток, які можна зберегти у вашому обліковому записі: %{count}.",
+          "many": "Максимальна кількість кредитних карток, які можна зберегти у вашому обліковому записі: %{count}."
+        },
+        "credit_card_vaulting_sign_in_banner_title": "Збереження даних кредитної картки",
+        "credit_card_vaulting_sign_in_banner_info": "Увійдіть до свого облікового запису або створіть новий, щоб зберегти дані кредитної картки для здійснення покупок.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Увійти"
+      },
+      "payment_summary": {
+        "gift_card_current_balance_notice": "Поточний баланс: %{amount}",
+        "credit_card_expires_on_notice": "Термін дії спливає %{ month}\/%{ year}",
+        "express_payment_gateway_label": "Експрес",
+        "manual_payment_gateway_label": "Вручну",
+        "billing_address_title": "Адреса виставлення рахунку",
+        "free_label": "Безкоштовно"
+      },
+      "field_errors": {
+        "handle_phone_invalid": "Вкажіть дійсний номер телефону",
+        "handle_email_invalid": "Вкажіть дійсну адресу електронної пошти",
+        "email_invalid": "Вкажіть дійсну адресу електронної пошти"
       }
     }
   }
