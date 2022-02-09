@@ -853,8 +853,108 @@
         "changes_summary": {
           "added": {
             "one": "Додано",
-            "other": "Додано: %{count}"
+            "other": "Додано: %{count}",
+            "few": "Додано: %{count}",
+            "many": "Додано: %{count}"
+          },
+          "removed": "Видалено",
+          "subtracted": "Видалено: %{count}"
+        }
+      },
+      "tips": {
+        "title": "Додайте пораду",
+        "description": "Підтримуйте вашу команду за допомогою програми %{shop_name}",
+        "presets_description": "Виберіть рекомендовану процентну ставку",
+        "custom_label": "Порада, що настроюється",
+        "add_tip": "Додайте пораду",
+        "update_tip": "Оновіть пораду",
+        "message": "Спасибі!",
+        "preset_label": "%{tip_percent}%",
+        "no_tip_label": "Ні"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "Покупка: %{product_name}",
+          "one": "Купівля: %{product_name} та ще кілька позицій (%{count})",
+          "other": "Купівля: %{product_name} та ще кілька позицій (%{count})",
+          "few": "Купівля: %{product_name} та ще кілька позицій (%{count})",
+          "many": "Купівля: %{product_name} та ще кілька позицій (%{count})"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "додаткова інформація"
+        }
+      },
+      "post_purchase": {
+        "page_title": "Після покупки",
+        "title": "Після покупки",
+        "escape_confirmation": "Ваше замовлення оплачене",
+        "escape_action": "Переглянути підтвердження замовлення ›",
+        "components": {
+          "close": "Закрити",
+          "expand": "Ще",
+          "processing": "Обробка.",
+          "submit": "Відправити"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "Вміст кошика оновлено на основі зазначеної країни доставки."
+      },
+      "subscriptions": {
+        "recurring_totals": "%{total_price} за кожен період (%{interval})",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "Перший платіж у розмірі %{total_price}",
+            "other": "Перші кілька платежів (%{count}) у розмірі %{total_price},",
+            "few": "Перші кілька платежів (%{count}) у розмірі %{total_price},",
+            "many": "Перші кілька платежів (%{count}) у розмірі %{total_price},"
+          },
+          "following_cycles": ", потім — %{total_price} раз на %{interval}."
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "one": "день",
+            "other": "%{count} днів",
+            "few": "%{count} днів",
+            "many": "%{count} днів"
+          },
+          "week": {
+            "one": "тиждень",
+            "other": "%{count} тижнів",
+            "few": "%{count} тижнів",
+            "many": "%{count} тижнів"
+          },
+          "month": {
+            "one": "місяць",
+            "other": "%{count} місяців",
+            "few": "%{count} місяців",
+            "many": "%{count} місяців"
+          },
+          "year": {
+            "one": "рік",
+            "other": "%{count} років",
+            "few": "%{count} років",
+            "many": "%{count} років"
           }
+        },
+        "recurring_totals_with_initial_order_shipping_discount": "Перший платіж — %{total_price_with_discount}, потім — %{recurring_total}",
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "one": ", потім — %{count} платіж %{total_price}",
+            "other": ", потім — %{count} плат. %{total_price}",
+            "few": ", потім — %{count} плат. %{total_price}",
+            "many": ", потім — %{count} плат. %{total_price}"
+          }
+        }
+      },
+      "customer_payment_methods": {
+        "page_title": "Способи оплати",
+        "title": "Способи оплати",
+        "update_card_button_label": "Оновити дані картки",
+        "delete_customer_mandate": {
+          "generic_error": "Під час обробки вашого запиту виникла проблема.",
+          "success_message": "Інформація про спосіб оплати видалена."
         }
       }
     },
