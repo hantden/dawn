@@ -650,8 +650,243 @@
         "order_status_confirmed_order_with_email_pick_up": "Ви отримаєте електронного листа, як тільки замовлення можна буде забирати.",
         "order_status_confirmed_order_with_phone_pick_up": "Ви отримаєте SMS, щойно замовлення можна буде забирати.",
         "order_status_confirmed_order_with_email_and_phone_pick_up": "Ви отримаєте електронного листа та SMS, як тільки замовлення можна буде забирати.",
-        "order_status_updates_with_email": "Ви отримуватимете оновлення про відправлення та доставку електронною поштою."
+        "order_status_updates_with_email": "Ви отримуватимете оновлення про відправлення та доставку електронною поштою.",
+        "order_status_updates_with_phone": "Ви отримуватимете оновлення про відправку та доставку в SMS.",
+        "order_status_updates_with_email_and_phone": "Ви отримуватимете оновлення про відправлення та доставку електронною поштою та в SMS.",
+        "order_status_updates_with_missing": "Виберіть спосіб отримання оновлень про доставку.",
+        "confirmed_title": "Ваше замовлення підтверджено",
+        "confirmed_description": "Ми прийняли ваше замовлення і готуємо його. Повертайтеся на цю сторінку, щоб відстежувати стан доставки.",
+        "ready_for_pickup_title": "Ви можете забрати замовлення",
+        "ready_for_pickup_description": "Ви можете забрати замовлення. Вам потрібно буде показати підтвердження замовлення у пункті видачі.",
+        "order_updates_title": "Оновлення замовлення",
+        "order_updates_description_html": "Оновлення будуть надсилатися за наступною адресою: %{customer_contact}",
+        "order_updates_current_step_prefix": "Поточний етап:",
+        "order_updates_past_step_prefix": "Попередній етап:",
+        "order_updates_upcoming_step_prefix": "Наступний етап:",
+        "in_transit": "В дорозі",
+        "in_transit_title": "Ваше замовлення вже в дорозі",
+        "in_transit_description": "Ви отримуватимете повідомлення про зміну його статусу.",
+        "in_transit_description_days": "Очікуваний термін доставки: через %{number} дн.",
+        "in_transit_description_today": "Очікуваний термін доставки: сьогодні.",
+        "in_transit_description_tomorrow": "Очікуваний термін доставки: завтра.",
+        "no_tracking_number": "У цьому замовленні не вказано номера для відстеження.",
+        "out_for_delivery": "У пункті відправлення",
+        "out_for_delivery_title": "Ваше замовлення готове до передачі для доставки",
+        "out_for_delivery_description_html": "Ваше замовлення в дорозі та прибуде сьогодні. Якщо ви не отримаєте посилку протягом 2 днів, %{contact_us}.",
+        "attempted_delivery": "Спроба доставки",
+        "attempted_delivery_title": "Була спроба доставити вашу посилку",
+        "attempted_delivery_description_html": "Компанія доставки спробувала доставити вашу посилку. На жаль, вона була невдалою. Зв'яжіться з %{contact_us}, щоб домовитися про новий час доставки.",
+        "delivered": "Доставлено",
+        "delivered_title": "Ваше замовлення доставлено",
+        "delivered_description_html": "Посилання доставлено за вказаною адресою. Якщо ви не отримали її або виникли інші проблеми, %{contact_us}.",
+        "contact_us": "Зв'яжіться з нами",
+        "contact_us_lowercase": "Зв'язатися з нами",
+        "contact_us_html": "Потрібна допомога? %{contact_us}",
+        "updated_time": "Оновлено %{time_ago} назад",
+        "failure": "Не було доставлене",
+        "failed_title": "Не вдалося доставити замовлення",
+        "failed_contact_merchant": "Зв'яжіться з %{company}, щоб домовитися про час доставки.",
+        "failed_contact_merchant_no_company": "Зв'яжіться з нами, щоб домовитись про час доставки.",
+        "non_shippable_title": "Ваше замовлення завершено",
+        "login_title": "Увійдіть, щоб переглянути всю інформацію",
+        "login_description": "Номер замовлення можна знайти у рахунку-фактурі, який ми надіслали вам електронною поштою.",
+        "login_description_phone": "Номер замовлення можна знайти у рахунку-фактурі, який ми надіслали вам у SMS.",
+        "login_not_customer_html": "Чи не %{name}? Ви можете %{link}",
+        "customer_information_hidden_fields_message": "Увійдіть, щоб переглянути всю інформацію про клієнта.",
+        "cancelled_title": "Ваше замовлення скасовано",
+        "cancelled_description": "Ваше замовлення було скасовано %{date}. Зв'яжіться з нами, якщо у вас виникли запитання.",
+        "order_number_label": "Номер замовлення",
+        "customer_validation_error": "Вкажіть дійсну адресу електронної пошти або номер замовлення.",
+        "customer_validation_error_phone": "Вкажіть номер телефону або номер замовлення.",
+        "login": "Увійти",
+        "unfulfilled_items_title": "Підготовка до відправлення",
+        "unfulfilled_items_description": "Ці товари готують до відправлення.",
+        "opt_in_message_html": "Вашу інформацію збережено в %{shopify_pay}",
+        "order_updates_description_missing": "Ви не отримуєте оновлень про доставку.",
+        "order_updates_subscribe_to_email_notifications": "Отримувати оновлення щодо доставки електронною поштою",
+        "order_updates_subscribe_to_email_or_phone_notifications": "Отримувати оновлення про доставку електронною поштою або SMS",
+        "order_updates_subscribe_to_phone_notifications": "Отримувати оновлення про доставку до SMS",
+        "order_updates_submit_subscription": "Відправити",
+        "track_shipment": "Відстежити доставку",
+        "other_options": "Інші варіанти",
+        "picked_up_title": "Ваше замовлення отримано у пункті видачі",
+        "picked_up_description_html": "Ваше замовлення отримано в пункті видачі %{location_name} у %{date}.",
+        "shop_phone_description": "Ви отримаєте SMS з посиланням на програму Shop, за допомогою якої зможете відстежувати своє замовлення.",
+        "login_reorder_link_text": {
+          "one": "купити цей товар також",
+          "other": "купити ці товари теж",
+          "few": "купити ці товари теж",
+          "many": "купити ці товари теж"
+        },
+        "marker": {
+          "current": "Поточне розташування посилки",
+          "shipping": "Адреса доставки"
+        },
+        "pick_up_in_store_marker": {
+          "current": "Поточне розташування посилки",
+          "shipping": "Крапка самовивезення"
+        },
+        "fulfillment": {
+          "fulfilled_table_title": "Товари в цій посилці",
+          "unfulfilled_table_title": "Товари готуються до відправки",
+          "product_image_label": "Зображення продукту",
+          "description_label": "Опис",
+          "quantity_label": "Кількість"
+        },
+        "shopify_pay": {
+          "order_completed_html": "Замовлення завершено через %{shopify_pay}",
+          "learn_more_label": "Дізнайтесь більше про Shop Pay"
+        },
+        "ready_for_delivery_title": "Ваше замовлення готове до передачі для доставки.",
+        "ready_for_delivery_description": "Ваше замовлення готове.",
+        "order_status_confirmed_order_local": "Ваше замовлення готується до доставки.",
+        "delivery_information_label": "Відомості про доставку:",
+        "gift_card_sent_confirmation": "Подарункова карта надіслана",
+        "out_for_delivery_local_title": "Ваше замовлення готове до передачі для доставки.",
+        "out_for_delivery_local_description_html": "Ваше замовлення незабаром буде доставлено.",
+        "delivered_local_title": "Ваше замовлення доставлено",
+        "delivered_local_description_html": "Чи не отримали замовлення? %{let_us_know}.",
+        "let_us_know": "Повідомте нас",
+        "qr_code": {
+          "title": "Надіслати посилання на телефон",
+          "subtitle": "Відскануйте код за допомогою камери телефону та відстежуйте у Shop.",
+          "send_link_to_phone": "Або надіслати посилання на телефон"
+        },
+        "gift_card_confirmation_by_text": "Подарункові картки надсилаються до SMS. Якщо надсилання було безуспішним, спробуйте надіслати їх знову або зв'яжіться з нами.",
+        "gift_card_confirmation_by_email": "Подарункові картки надсилаються електронною поштою. Якщо надсилання було безуспішним, спробуйте надіслати їх знову або зв'яжіться з нами.",
+        "gift_card_title": "Подарункові карти",
+        "resend_gift_cards": "Повторно надіслати подарункові картки",
+        "attempted_delivery_local_title": "Невдала доставка",
+        "attempted_delivery_local_description_html": "Не вдалося доставити ваше замовлення. Щоб запланувати доставку, %{contact_us}.",
+        "thank_you_title_payment": "Вашу оплату підтверджено",
+        "thank_you_confirmed_order_with_email_payment": "Ви сплатили за замовлення %{date}.",
+        "thank_you_confirmed_order_with_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "thank_you_confirmed_order_with_email_and_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "order_status_confirmed_order_with_email_payment": "Ви сплатили за замовлення %{date}.",
+        "order_status_confirmed_order_with_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "order_status_confirmed_order_with_email_and_phone_payment": "Ви сплатили за замовлення %{date}.",
+        "shop_qr_with_sms_upsell": {
+          "qr_code": {
+            "title": "Відскануйте код за допомогою телефону",
+            "description": "Після відправки замовлення магазин надсилатиме вам актуальні відомості про його рух у реальному часі."
+          },
+          "sms": {
+            "title": "Або надішліть посилання на телефон"
+          }
+        }
+      },
+      "review": {
+        "title": "Переглянути",
+        "review_title": "Переглянути замовлення",
+        "checkout_as_guest": "Оформити замовлення як гість",
+        "blocks": {
+          "contact_method_title": "Контактна інформація",
+          "billing_address_title": "Виставлення рахунків",
+          "shipping_address_title": "Адреса доставки",
+          "shipping_method_title": "Спосіб",
+          "payment_method_title": "Платіж",
+          "change_link_label": "Змінити",
+          "change_contact_method_link_label": "Змінити контактну інформацію",
+          "change_billing_address_link_label": "Змінити адресу виставлення рахунків",
+          "change_shipping_address_link_label": "Змінити адресу доставки",
+          "change_shipping_method_link_label": "Змінити спосіб доставки",
+          "change_payment_method_link_label": "Змінити спосіб оплати",
+          "pick_up_in_store_shipping_method_html": "Отримання в магазині: %{location_name}"
+        }
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "Надсилайте мені новини та пропозиції",
+        "unsubscribe": {
+          "title": "Ви скасували підписку",
+          "description": "Ви більше не отримуватимете нагадування про товари в кошику."
+        },
+        "accept_sms_checkbox_label": "Надсилайте мені текстові повідомлення про новини та пропозиції",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "Політика конфіденційності",
+            "terms_of_service": "Умови надання послуг",
+            "description_html": "Погоджуючись на отримання текстових повідомлень на вказаний номер мобільного телефону, ви підтверджуєте своє бажання отримувати автоматичні рекламні повідомлення, зокрема нагадування про статус вашого кошика. Згода не є умовою для здійснення покупок. Щоб скасувати підписку, надішліть повідомлення із текстом «STOP». Щоб отримати допомогу, напишіть \"Потрібна допомога\". Частота надсилання текстових повідомлень може змінюватися. Може стягуватися вартість надсилання текстових повідомлень та даних. Більше дізнайтеся тут: %{privacy_policy_link} та %{terms_of_service_link}.",
+            "description_html_transactional": "Рахунок та оновлення про статус доставки будуть надіслані вам у текстовому повідомленні. Щоб скасувати передплату, надішліть повідомлення з текстом \"STOP\". Щоб отримати допомогу, напишіть \"HELP\". Частота надсилання текстових повідомлень може змінюватися. Може стягуватися вартість надсилання текстових повідомлень та даних. Ознайомтеся з нашими Умовами обслуговування та Політикою конфіденційності."
+          }
+        },
+        "post_accept_marketing_checkbox_label": "Ви підписані на електронну розсилку новин та пропозицій",
+        "pending_accept_marketing_checkbox_label": "Відкрийте пошту та підтвердьте підписку на розсилку новин та пропозицій"
+      },
+      "shop_policies": {
+        "refund_policy": "Політика повернення коштів",
+        "privacy_policy": "Політика конфіденційності",
+        "terms_of_service": "Умови обслуговування",
+        "legal_notice": "Правове повідомлення",
+        "shipping_policy": "Політика доставки",
+        "terms_of_sale": "Умови продажу",
+        "subscription_policy": "Політика підписок"
+      },
+      "remember_me": {
+        "save": "Зберегти",
+        "title": "Запам'ятати мене",
+        "label": "Зберегти мою інформацію для прискорення оформлення замовлень",
+        "mobile_phone_icon_alt": "Мобільний телефон",
+        "mobile_phone_number": "Номер мобільного телефону",
+        "shopify_pay_label": "Shop Pay",
+        "description_html": "Наступного разу при оформленні замовлень тут або в інших магазинах, що працюють на платформі Shopify, ми надсилатимемо SMS для проведення безпечної покупки за допомогою Shop Pay.",
+        "terms_and_privacy_html": "Продовжуючи, ви приймаєте %{privacy_href} та %{terms_href} Shop Pay.",
+        "errors": {
+          "optin": "Сервіс Shop Pay недоступний"
+        },
+        "privacy_policy": "Політика конфіденційності",
+        "terms_of_service": "Умови обслуговування",
+        "installments": {
+          "paid_in_installments": "Сплачено періодичними платежами Shop Pay.",
+          "view_schedule": "Показати графік"
+        }
+      },
+      "notifications": {
+        "title": "Сповіщення"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "Сума замовлення %{order_name}",
+        "additional_payment_requested": "Потрібна оплата у розмірі %{total_outstanding}",
+        "checkout_review_and_pay": "Замовлення %{order_name} змінено. Перегляньте ці зміни, а потім сплатіть зазначену суму, щоб підтвердити замовлення.",
+        "order_updated_on": "Ваше замовлення було оновлено %{last_edited_at}.",
+        "order_review_and_pay": "Замовлення змінено. Перегляньте ці зміни, а потім сплатіть зазначену суму, щоб підтвердити замовлення.",
+        "pay_now": "Сплатити",
+        "changes_summary": {
+          "added": {
+            "one": "Додано",
+            "other": "Додано: %{count}"
+          }
+        }
       }
+    },
+    "pagination": {
+      "previous": "назад",
+      "next": "Далі"
+    },
+    "links": {
+      "powered_by_shopify": "На платформі Shopify",
+      "learn_more": "Детальніше"
+    },
+    "feed": {
+      "more": "Ще"
+    },
+    "attributes": {
+      "email": "електронна адреса",
+      "password": "пароль",
+      "password_confirmation": "Підтвердіть пароль",
+      "first_name": "ім'я",
+      "last_name": "прізвище",
+      "body": "основна частина",
+      "signature": "Адреса"
+    },
+    "addresses": {
+      "zip_code": "Поштовий індекс",
+      "postal_code": "Поштовий індекс",
+      "postcode": "Поштовий індекс",
+      "pincode": "PIN-код",
+      "region": "Регіон",
+      "prefecture": "Префектура",
+      "province": "Область",
+      "state": "Штат"
     }
   }
 }
