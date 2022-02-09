@@ -1244,6 +1244,36 @@
   "templates": {
     "cart": {
       "cart": "Кошик"
+    },
+    "search": {
+      "no_results": "За запитом «{{ terms }}» нічого не знайдено. Перевірте правопис або виберіть інші слова або фразу.",
+      "page": "Сторінка",
+      "products": "Товари",
+      "results_with_count": {
+        "one": "Результати: {{ count }}",
+        "other": "Результати: {{ count }}"
+      },
+      "results_with_count_and_term": {
+        "one": "{{ count }} рез. на запит «{{ terms }}»",
+        "other": "{{ count }} рез. на запит «{{ terms }}»"
+      },
+      "title": "Результати пошуку",
+      "search_for": "Пошук \"{{ terms }}\""
+    },
+    "contact": {
+      "form": {
+        "name": "Ім'я",
+        "email": "Адреса електронної пошти",
+        "phone": "Номер телефону",
+        "comment": "Коментар",
+        "send": "Відправити",
+        "post_success": "Дякую за звернення. Ми зв'яжемося з вами якнайшвидше.",
+        "error_heading": "Змініть такі елементи:"
+      }
+    },
+    "404": {
+      "title": "Сторінку не знайдено",
+      "subtext": "404"
     }
   },
   "newsletter": {
@@ -1333,7 +1363,171 @@
       "sold_out": "Продано",
       "unavailable": "Недоступно",
       "vendor": "Продавець",
-      "video_exit_message": "{{ title }} - у тому ж вікні відкривається повноекранне відео."
+      "video_exit_message": "{{ title }} - у тому ж вікні відкривається повноекранне відео.",
+      "view_full_details": "Переглянути всю інформацію",
+      "xr_button": "Переглядайте у реальних умовах",
+      "xr_button_label": "Під час перегляду реальних умов елемент завантажується у вікні доповненої реальності",
+      "include_taxes": "Суму податку включено.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Вартість доставки<\/a> розраховується при оформленні замовлення."
+    },
+    "modal": {
+      "label": "Галерея мультимедіа"
+    },
+    "facets": {
+      "apply": "Додати",
+      "clear": "вилучити",
+      "clear_all": "Видалити все",
+      "from": "Від",
+      "filter_and_sort": "Фільтр та сортування",
+      "filter_by_label": "Фільтр:",
+      "filter_button": "Фільтрувати",
+      "filters_selected": {
+        "one": "Вибрано: {{ count }}",
+        "other": "Вибрано: {{ count }}"
+      },
+      "max_price": "Максимальна ціна: {{ price }}",
+      "product_count": {
+        "one": "{{ product_count }} з {{ count }} прод.",
+        "other": "{{ product_count }} з {{ count }} прод."
+      },
+      "product_count_simple": {
+        "one": "{{ count }} прод.",
+        "other": "Продуктів: {{ count }}"
+      },
+      "reset": "скинути",
+      "sort_button": "Сортування",
+      "sort_by_label": "Сортування:",
+      "to": "Для",
+      "clear_filter": "Видалити фільтр"
+    }
+  },
+  "localization": {
+    "country_label": "Країна\/регіон",
+    "language_label": "Мова",
+    "update_language": "Змінити мову",
+    "update_country": "Змінити дані про країну\/регіон"
+  },
+  "customer": {
+    "account": {
+      "title": "Обліковий запис",
+      "details": "Відомості облікового запису",
+      "view_addresses": "Подивитись адреси",
+      "return": "Повернутися до відомостей облікового запису"
+    },
+    "account_fallback": "Обліковий запис",
+    "activate_account": {
+      "title": "Активувати обліковий запис",
+      "subtext": "Створіть пароль, щоб активувати обліковий запис.",
+      "password": "Пароль",
+      "password_confirm": "Підтвердити пароль",
+      "submit": "Активувати обліковий запис",
+      "cancel": "Відхилити запрошення"
+    },
+    "addresses": {
+      "title": "Адреси",
+      "default": "За замовчуванням",
+      "add_new": "Додати нову адресу",
+      "edit_address": "Змінити адресу",
+      "first_name": "Ім'я",
+      "last_name": "Прізвище",
+      "company": "Компанія",
+      "address1": "№ відділення Нової Пошти\/Укрпошти",
+      "address2": "Адреса (для кур'єрської доставки)",
+      "city": "Місто",
+      "country": "Країна\/регіон",
+      "province": "Область",
+      "zip": "Поштовий індекс",
+      "phone": "Телефон",
+      "set_default": "Задати як адресу за замовчуванням",
+      "add": "Додати адресу",
+      "update": "Оновити адресу",
+      "cancel": "Скасувати",
+      "edit": "редагувати",
+      "delete": "вилучити",
+      "delete_confirm": "Видалити цю адресу?"
+    },
+    "log_in": "Увійти",
+    "log_out": "Вийти",
+    "login_page": {
+      "cancel": "Скасувати",
+      "create_account": "Створити обліковий запис",
+      "email": "Адреса електронної пошти",
+      "forgot_password": "Забули пароль?",
+      "guest_continue": "Продовжити",
+      "guest_title": "Продовжіть як гостя",
+      "password": "Пароль",
+      "title": "Вхід",
+      "sign_in": "Увійти до системи",
+      "submit": "Відправити"
+    },
+    "order": {
+      "title": "Замовлення: {{ name }}",
+      "date_html": "Розміщено: {{ date }}",
+      "cancelled_html": "Замовлення скасовано: {{ date }}",
+      "cancelled_reason": "Причина: {{ reason }}",
+      "billing_address": "Адреса виставлення рахунку",
+      "payment_status": "Статус оплати",
+      "shipping_address": "Адреса доставки",
+      "fulfillment_status": "Статус виконання",
+      "discount": "Знижка",
+      "shipping": "Доставка",
+      "tax": "Податок",
+      "product": "Товар",
+      "sku": "Артикул",
+      "price": "Ціна",
+      "quantity": "Кількість",
+      "total": "Усього",
+      "fulfilled_at_html": "Виконаний: {{ date }}",
+      "track_shipment": "Відстежити доставку",
+      "tracking_url": "Посилання для відстеження",
+      "tracking_company": "Перевізник",
+      "tracking_number": "Номер для відстеження",
+      "subtotal": "Проміжний підсумок"
+    },
+    "orders": {
+      "title": "Історія замовлень",
+      "order_number": "Замовлення",
+      "order_number_link": "Номер замовлення: {{ number }}",
+      "date": "Дата",
+      "payment_status": "Статус оплати",
+      "fulfillment_status": "Статус виконання",
+      "total": "Усього",
+      "none": "У вас ще немає замовлень."
+    },
+    "recover_password": {
+      "title": "Скиньте пароль",
+      "subtext": "Ми надішлемо вам листа з посиланням на скидання пароля.",
+      "success": "Ми надіслали вам листа з посиланням на оновлення пароля."
+    },
+    "register": {
+      "title": "Створити обліковий запис",
+      "first_name": "Ім'я",
+      "last_name": "Прізвище",
+      "email": "Адреса електронної пошти",
+      "password": "Пароль",
+      "submit": "Створити"
+    },
+    "reset_password": {
+      "title": "Скиньте пароль облікового запису",
+      "subtext": "Введіть новий пароль для {{ email }}",
+      "password": "Пароль",
+      "password_confirm": "Підтвердити пароль",
+      "submit": "Скинути пароль"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Ось ваша подарункова карта {{ value }} для магазину {{ shop }}!",
+      "subtext": "Ваша подарункова картка",
+      "gift_card_code": "Код подарункової картки",
+      "shop_link": "продовжити покупки",
+      "remaining_html": "Залишок на рахунку: {{ balance }}",
+      "add_to_apple_wallet": "Додати до Apple Wallet",
+      "qr_image_alt": "Відскануйте QR-код, щоб використати подарункову карту",
+      "copy_code": "Копіювати код",
+      "expired": "Термін дії минув",
+      "copy_code_success": "Код скопійовано",
+      "print_gift_card": "печатка"
     }
   }
 }
