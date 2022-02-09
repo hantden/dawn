@@ -1208,5 +1208,132 @@
         "one_hour": "Зазвичай готовий за годину"
       }
     }
+  },
+  "general": {
+    "cart": {
+      "view": "Переглянути кошик ({{ count }})",
+      "item_added": "Товар доданий до кошика."
+    },
+    "social": {
+      "links": {
+        "tiktok": "TikTok"
+      }
+    },
+    "continue_shopping": "продовжити покупки",
+    "pagination": {
+      "label": "Розбивка на сторінки",
+      "page": "Сторінка {{ number }}",
+      "next": "Наступна сторінка",
+      "previous": "Попередня сторінка"
+    },
+    "search": {
+      "search": "Пошук"
+    },
+    "share": {
+      "close": "Згорнути функцію \"Поділитися\"",
+      "copy_to_clipboard": "Копіювати посилання",
+      "share_url": "Посилання",
+      "success_message": "Посилання скопійоване у буфер обміну."
+    },
+    "slider": {
+      "of": "з",
+      "next_slide": "Погортати вперед",
+      "previous_slide": "Погортати назад"
+    }
+  },
+  "templates": {
+    "cart": {
+      "cart": "Кошик"
+    }
+  },
+  "newsletter": {
+    "label": "Адреса електронної пошти",
+    "success": "Дякую, що підписалися!",
+    "button_label": "Підписатися"
+  },
+  "accessibility": {
+    "skip_to_text": "Перейти до контенту",
+    "skip_to_product_info": "Перейти до інформації про продукт",
+    "close": "Закрити",
+    "unit_price_separator": "за",
+    "vendor": "Продавець:",
+    "error": "Помилка",
+    "refresh_page": "Вибір виділеного елемента призводить до повного оновлення сторінки.",
+    "link_messages": {
+      "new_window": "Відкривається у новому вікні.",
+      "external": "Відкриває зовнішній веб-сайт."
+    },
+    "loading": "Завантаження...",
+    "total_reviews": "всього відгуків",
+    "star_reviews_info": "{{ rating_value }} із {{ rating_max }} зірок",
+    "collapsible_content_title": "Контент, який можна згорнути"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Блог",
+      "read_more_title": "Дізнатись більше: {{ title }}",
+      "comments": {
+        "one": "Коментарі: {{ count }}",
+        "other": "Коментарів: {{ count }}"
+      },
+      "moderated": "Зауважте, що коментарі проходять схвалення перед публікацією.",
+      "comment_form_title": "Коментувати",
+      "name": "Ім'я",
+      "email": "Адреса електронної пошти",
+      "message": "Коментар",
+      "post": "Додати коментар",
+      "back_to_blog": "Повернутись до блогу",
+      "share": "Поділитись статтею",
+      "success": "Ваш коментар надіслано. Спасибі!",
+      "success_moderated": "Ваш коментар надіслано. Ми опублікуємо його через деякий час, оскільки наш блог модерується."
+    }
+  },
+  "onboarding": {
+    "product_title": "Приклад назви товару",
+    "collection_title": "Назва колекції"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Додати до кошику",
+      "description": "Опис",
+      "on_sale": "Розпродаж",
+      "product_variants": "Варіанти товару",
+      "media": {
+        "gallery_viewer": "Засіб перегляду галереї",
+        "load_image": "Завантажити зображення {{ index }} у засіб перегляду галереї",
+        "load_model": "Завантажити тривимірну модель {{ index }} у засіб перегляду галереї",
+        "load_video": "Завантажити відео {{ index }} у засіб перегляду галереї",
+        "image_available": "Зображення {{ index }} доступне у засобі перегляду галереї",
+        "open_media": "Відкрити медіа-файли у модальному вікні {{ index }}",
+        "play_model": "Відкрити об'ємну модель",
+        "play_video": "Відтворити відео"
+      },
+      "quantity": {
+        "label": "Кількість",
+        "input_label": "Кількість: {{ product }}",
+        "increase": "Збільшити кількість {{ product }}",
+        "decrease": "Зменшити кількість {{ product }}"
+      },
+      "pickup_availability": {
+        "view_store_info": "Відомості про магазин",
+        "check_other_stores": "Перевірити наявність в інших магазинах",
+        "pick_up_available": "Самовивіз доступний",
+        "pick_up_available_at_html": "Самовивіз доступний: <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "Самовивіз зараз недоступний: <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "Неможливо завантажити інформацію про доступність самовивезення",
+        "refresh": "Оновити"
+      },
+      "price": {
+        "from_price_html": "Від {{ price }}",
+        "regular_price": "Звичайна ціна",
+        "sale_price": "Ціна зі знижкою",
+        "unit_price": "Ціна за одиницю"
+      },
+      "share": "Поділитись цим продуктом",
+      "sold_out": "Продано",
+      "unavailable": "Недоступно",
+      "vendor": "Продавець",
+      "video_exit_message": "{{ title }} - у тому ж вікні відкривається повноекранне відео."
+    }
   }
 }
