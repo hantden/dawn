@@ -1186,10 +1186,10 @@
       "challenge": "Виклик",
       "checkpoint": "Контрольна точка",
       "search_results": {
-        "one": "%{count} рез. на запит «%{terms}»",
-        "other": "%{count} рез. на запит «%{terms}»",
-        "few": "%{count} рез. на запит «%{terms}»",
-        "many": "%{count} рез. на запит «%{terms}»"
+        "one": "%{count} рез. за запитом «%{terms}»",
+        "other": "%{count} рез. за запитом «%{terms}»",
+        "few": "%{count} рез. за запитом «%{terms}»",
+        "many": "%{count} рез. за запитом «%{terms}»"
       },
       "blog_or_article_with_error": "%{title}: виявлено помилку"
     },
