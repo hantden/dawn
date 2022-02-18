@@ -110,8 +110,8 @@
         "payment_total_label": "Всьго до сплати",
         "conversion_rate": "1 %{from_currency_code} = %{rate} %{to_currency_code}",
         "change_currency_link": "Змінити на %{currency_name}",
-        "card_provider_fx_charges_warning": "З вашої картки може бути знята комісія за транзакції у валюті %{currency_code}.",
-        "currency_not_supported_by_shop": "Ця валюта не використовується. Всі ціни наразі в такій валюті: %{currency_code}."
+        "card_provider_fx_charges_warning": "З вашої картки може бути знято комісію за транзакції у валюті %{currency_code}.",
+        "currency_not_supported_by_shop": "Ця валюта не використовується. Усі ціни тепер у такій валюті: %{currency_code}."
       },
       "general": {
         "page_title": "Оформити замовлення",
@@ -142,7 +142,7 @@
         "contact_us_html": "Зв'яжіться з нами, щоб дізнатися більше",
         "autocomplete_title": "Рекомендації",
         "autocomplete_single_item": "Доступна 1 одиниця",
-        "autocomplete_multi_item": "Доступно: {{number}} од.",
+        "autocomplete_multi_item": "Доступно: {{number}} од.",
         "autocomplete_selection": "{{number}} з {{total}}",
         "autocomplete_close": "Закрити рекомендації",
         "tooltip_accessibility_label": "Детальніше",
