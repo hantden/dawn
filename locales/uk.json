@@ -1205,7 +1205,41 @@
     },
     "store_availability": {
       "pick_up_time": {
-        "one_hour": "Зазвичай готовий за годину"
+        "one_hour": "Зазвичай готовий за годину",
+        "two_hours": "Зазвичай готовий за 2 години",
+        "four_hours": "Зазвичай готовий за 4 години",
+        "twenty_four_hours": "Зазвичай готовий за 24 години",
+        "two_to_four_days": "Зазвичай готовий за 2-4 дні",
+        "five_or_more_days": "Зазвичай готовий за 5 або більше днів",
+        "zero_to_two_hours": "Зазвичай готовий за 2 години",
+        "two_to_four_hours": "Зазвичай готовий за 4 години",
+        "immediately": "Можна забрати вже зараз",
+        "next_day": "Можна буде забрати наступного дня"
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Доступність",
+        "value": {
+          "in_stock": "В наявності",
+          "out_of_stock": "Немає в наявності"
+        }
+      },
+      "vendor": {
+        "label": "Бренд"
+      },
+      "price": {
+        "label": "Ціна"
+      },
+      "product_type": {
+        "label": "Вид товару"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "Релевантність",
+        "price_ascending": "За зростанням ціни",
+        "price_descending": "За спаданням ціни"
       }
     }
   },
@@ -1216,7 +1250,20 @@
     },
     "social": {
       "links": {
-        "tiktok": "TikTok"
+        "tiktok": "TikTok",
+        "twitter": "Твіттер",
+        "facebook": "Facebook",
+        "pinterest": "Pinterest",
+        "instagram": "Instagram",
+        "tumblr": "Tumblr",
+        "snapchat": "Snapchat",
+        "youtube": "YouTube",
+        "vimeo": "Vimeo"
+      },
+      "alt_text": {
+        "share_on_facebook": "Поділитися у Facebook",
+        "share_on_twitter": "Опублікувати у Твіттері",
+        "share_on_pinterest": "Зберегти у Pinterest"
       }
     },
     "continue_shopping": "продовжити покупки",
@@ -1239,6 +1286,16 @@
       "of": "з",
       "next_slide": "Погортати вперед",
       "previous_slide": "Погортати назад"
+    },
+    "password_page": {
+      "login_form_heading": "Вхід до магазину за допомогою пароля:",
+      "login_password_button": "Увійти за допомогою пароля",
+      "login_form_password_label": "Пароль",
+      "login_form_password_placeholder": "Ваш пароль",
+      "login_form_error": "Неправильний пароль.",
+      "login_form_submit": "Ввести",
+      "admin_link_html": "Ви власник магазину? <a href=\"\/admin\" class=\"link underlined-link\">Увійдіть тут<\/a>",
+      "powered_by_shopify_html": "Цей магазин працює на платформі {{ shopify }}"
     }
   },
   "templates": {
@@ -1254,8 +1311,8 @@
         "other": "Результати: {{ count }}"
       },
       "results_with_count_and_term": {
-        "one": "{{ count }} рез. на запит «{{ terms }}»",
-        "other": "{{ count }} рез. на запит «{{ terms }}»"
+        "one": "{{ count }} рез. за запитом «{{ terms }}»",
+        "other": "{{ count }} рез. за запитом «{{ terms }}»"
       },
       "title": "Результати пошуку",
       "search_for": "Пошук \"{{ terms }}\""
@@ -1272,7 +1329,7 @@
       }
     },
     "404": {
-      "title": "Сторінку не знайдено",
+      "title": "Сторінка не знайдена",
       "subtext": "404"
     }
   },
@@ -1376,25 +1433,25 @@
     "facets": {
       "apply": "Додати",
       "clear": "вилучити",
-      "clear_all": "Видалити все",
+      "clear_all": "Видалити всі",
       "from": "Від",
       "filter_and_sort": "Фільтр та сортування",
       "filter_by_label": "Фільтр:",
       "filter_button": "Фільтрувати",
       "filters_selected": {
-        "one": "Вибрано: {{ count }}",
-        "other": "Вибрано: {{ count }}"
+        "one": "Обрано: {{ count }}",
+        "other": "Обрано: {{ count }}"
       },
       "max_price": "Максимальна ціна: {{ price }}",
       "product_count": {
-        "one": "{{ product_count }} з {{ count }} прод.",
-        "other": "{{ product_count }} з {{ count }} прод."
+        "one": "{{ product_count }} із {{ count }} прод.",
+        "other": "{{ product_count }} із {{ count }} прод."
       },
       "product_count_simple": {
         "one": "{{ count }} прод.",
         "other": "Продуктів: {{ count }}"
       },
-      "reset": "скинути",
+      "reset": "Скинути",
       "sort_button": "Сортування",
       "sort_by_label": "Сортування:",
       "to": "Для",
@@ -1528,6 +1585,48 @@
       "expired": "Термін дії минув",
       "copy_code_success": "Код скопійовано",
       "print_gift_card": "печатка"
+    }
+  },
+  "sections": {
+    "header": {
+      "announcement": "Оголошення",
+      "menu": "Меню",
+      "cart_count": {
+        "one": "Елементи: {{ count }}",
+        "other": "Елементів: {{ count }}"
+      }
+    },
+    "footer": {
+      "payment": "Способи оплати"
+    },
+    "featured_blog": {
+      "view_all": "Подивитись все",
+      "onboarding_title": "Стаття у блозі",
+      "onboarding_content": "Напишіть короткий зміст вашої статті у блозі."
+    },
+    "featured_collection": {
+      "view_all": "Подивитись все",
+      "view_all_label": "Переглянути всі товари в колекції \"{{ collection_name }}\""
+    },
+    "collection_list": {
+      "view_all": "Подивитись все"
+    },
+    "collection_template": {
+      "empty": "Продукти не знайдено",
+      "title": "Колекція",
+      "use_fewer_filters_html": "Використовуйте менше фільтрів або <a class=\"{{ class }}\" href=\"{{ link }}\">видалити фільтри<\/a>"
+    },
+    "video": {
+      "load_video": "Завантажити відео: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Завантажити слайд",
+      "previous_slideshow": "Попередній слайд",
+      "next_slideshow": "Наступний слайд",
+      "pause_slideshow": "Зупинити показ слайд-шоу",
+      "play_slideshow": "Відтворити слайд-шоу",
+      "carousel": "Карусель",
+      "slide": "Слайд"
     }
   }
 }
