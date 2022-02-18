@@ -372,7 +372,7 @@
         "pay_with_payment_method": "Сплатити через %{payment_method}",
         "same_billing_address_label": "Збігається з адресою доставки",
         "different_billing_address_label": "Використовувати іншу адресу виставлення рахунку",
-        "free_order_notice_html": "Товари у вашому замовленні надаються безкоштовно <strong>. Оплата не потрібна.",
+        "free_order_notice_html": "Товари у вашому замовленні надаються <strong>безкоштовно<\/strong>. Оплата не потрібна.",
         "express_checkout_free_order": "Ми не стягуємо плату за безкоштовні замовлення",
         "offsite_gateway_redirect_hint": "Натисніть «%{button_label}», щоб перейти на портал %{gateway_label} для безпечного завершення покупки.",
         "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label}, разом: %{total_shop_price}",
@@ -425,15 +425,15 @@
         "subscription_agreement_cancelled": "скасовано",
         "card_expired": "Термін дії минув",
         "card_verification_confirm": "Введіть код безпеки картки для перевірки.",
-        "different_credit_card_label": "Використовувати іншу картку",
-        "ftd_vault_credit_card_label": "Зберегти дані кредитної картки для прискорення оформлення замовлень",
+        "different_credit_card_label": "Використовувати іншу карту",
+        "ftd_vault_credit_card_label": "Зберегти кредитну картку в обліковому записі для прискорення оформлення замовлень",
         "delete_customer_mandate_modal_title": "Видалити картку?",
         "delete_customer_mandate_modal_body": "Цю дію неможливо скасувати.",
         "delete_customer_mandate_modal_confirm": "вилучити",
         "delete_customer_mandate_modal_cancel": "Скасувати",
         "apple": {
           "connect": "Натисніть, щоб підключити обліковий запис PayPal.",
-          "not_available": "Apple Pay недоступний у вашому браузері. Щоб підключити обліковий запис Apple Pay, використовуйте браузер Safari на Вашому пристрої Apple.",
+          "not_available": "Apple Pay недоступний у вашому браузері. Щоб підключити обліковий запис Apple Pay, використовуйте браузер Safari на своєму Apple.",
           "email_connected": "Обліковий запис підключено"
         },
         "account_connected": "Обліковий запис підключено",
@@ -447,11 +447,13 @@
         },
         "credit_card_vaulting_sign_in_banner_title": "Збереження даних кредитної картки",
         "credit_card_vaulting_sign_in_banner_info": "Увійдіть до свого облікового запису або створіть новий, щоб зберегти дані кредитної картки для здійснення покупок.",
-        "credit_card_vaulting_sign_in_banner_button_label": "Увійти"
+        "credit_card_vaulting_sign_in_banner_button_label": "Увійти",
+        "expiry_long": "(Термін дії закінчується %{month}\/%{year})",
+        "expiry_short": "(Термін дії закінчується %{month}\/%{year})"
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Поточний баланс: %{amount}",
-        "credit_card_expires_on_notice": "Термін дії спливає %{ month}\/%{ year}",
+        "credit_card_expires_on_notice": "Термін дії спливає %{month}\/%{year}",
         "express_payment_gateway_label": "Експрес",
         "manual_payment_gateway_label": "Вручну",
         "billing_address_title": "Адреса виставлення рахунку",
