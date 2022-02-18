@@ -677,17 +677,17 @@
         "out_for_delivery_description_html": "Ваше замовлення в дорозі та прибуде сьогодні. Якщо ви не отримаєте посилку протягом 2 днів, %{contact_us}.",
         "attempted_delivery": "Спроба доставки",
         "attempted_delivery_title": "Була спроба доставити вашу посилку",
-        "attempted_delivery_description_html": "Компанія доставки спробувала доставити вашу посилку. На жаль, вона була невдалою. Зв'яжіться з %{contact_us}, щоб домовитися про новий час доставки.",
+        "attempted_delivery_description_html": "Компанія доставки спробувала доставити вашу посилку. На жаль, вона була невдалою. Зв'яжіться з %{contact_us}, щоб домовитись про новий час доставки.",
         "delivered": "Доставлено",
         "delivered_title": "Ваше замовлення доставлено",
         "delivered_description_html": "Посилання доставлено за вказаною адресою. Якщо ви не отримали її або виникли інші проблеми, %{contact_us}.",
         "contact_us": "Зв'яжіться з нами",
         "contact_us_lowercase": "Зв'язатися з нами",
         "contact_us_html": "Потрібна допомога? %{contact_us}",
-        "updated_time": "Оновлено %{time_ago} назад",
+        "updated_time": "Оновлено %{time_ago} тому",
         "failure": "Не було доставлене",
         "failed_title": "Не вдалося доставити замовлення",
-        "failed_contact_merchant": "Зв'яжіться з %{company}, щоб домовитися про час доставки.",
+        "failed_contact_merchant": "Зв'яжіться з %{company}, щоб домовитись про час доставки.",
         "failed_contact_merchant_no_company": "Зв'яжіться з нами, щоб домовитись про час доставки.",
         "non_shippable_title": "Ваше замовлення завершено",
         "login_title": "Увійдіть, щоб переглянути всю інформацію",
@@ -877,10 +877,10 @@
       "open_graph_meta_tag": {
         "title_with_products": {
           "zero": "Покупка: %{product_name}",
-          "one": "Купівля: %{product_name} та ще кілька позицій (%{count})",
-          "other": "Купівля: %{product_name} та ще кілька позицій (%{count})",
-          "few": "Купівля: %{product_name} та ще кілька позицій (%{count})",
-          "many": "Купівля: %{product_name} та ще кілька позицій (%{count})"
+          "one": "Покупка: %{product_name} та ще кілька позицій (%{count})",
+          "other": "Покупка: %{product_name} та ще кілька позицій (%{count})",
+          "few": "Покупка: %{product_name} та ще кілька позицій (%{count})",
+          "many": "Покупка: %{product_name} та ще кілька позицій (%{count})"
         }
       },
       "localized_fields": {
@@ -904,7 +904,7 @@
         "cart_updated_based_on_country": "Вміст кошика оновлено на основі зазначеної країни доставки."
       },
       "subscriptions": {
-        "recurring_totals": "%{total_price} за кожен період (%{interval})",
+        "recurring_totals": "%{total_price} за кожний період (%{interval})",
         "recurring_totals_with_policies": {
           "first_cycles": {
             "one": "Перший платіж у розмірі %{total_price}",
@@ -912,7 +912,7 @@
             "few": "Перші кілька платежів (%{count}) у розмірі %{total_price},",
             "many": "Перші кілька платежів (%{count}) у розмірі %{total_price},"
           },
-          "following_cycles": ", потім — %{total_price} раз на %{interval}."
+          "following_cycles": ", Потім - %{total_price} раз в %{interval}."
         },
         "recurring_total_intervals": {
           "day": {
@@ -944,9 +944,9 @@
         "recurring_totals_with_initial_order_shipping_discount_with_policies": {
           "first_cycles": {
             "one": ", потім — %{count} платіж %{total_price}",
-            "other": ", потім — %{count} плат. %{total_price}",
-            "few": ", потім — %{count} плат. %{total_price}",
-            "many": ", потім — %{count} плат. %{total_price}"
+            "other": ", потім - %{count} плат. по %{total_price}",
+            "few": ", потім - %{count} плат. по %{total_price}",
+            "many": ", потім - %{count} плат. по %{total_price}"
           }
         }
       },
