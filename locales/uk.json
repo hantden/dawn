@@ -566,8 +566,8 @@
         "or": "АБО"
       },
       "alternative_payment_method": {
-        "button_html": "Оформити замовлення через %{method}",
-        "button_label": "Оформити замовлення через %{method}"
+        "button_html": "Замовити через %{method}",
+        "button_label": "Замовити через %{method}"
       },
       "paypal": {
         "button_html": "Замовити через %{logo}"
@@ -611,19 +611,19 @@
         "return_to_cart_button_label": "Повернутись до кошику"
       },
       "payment_gateway": {
-        "credit_card_label": "Кредитна картка",
+        "credit_card_label": "Кредитна карта",
         "bank_deposit_label": "Банківський депозит",
         "cash_on_delivery_label": "Готівкою при отриманні",
         "money_order_label": "Грошове доручення"
       },
       "thank_you": {
         "title": "Дякуємо за покупку!",
-        "confirmation_email_sent_text": "Підтверджений лист надіслано на електронну адресу %{email}",
+        "confirmation_email_sent_text": "Лист із підтвердженням надіслано на електронну адресу %{email}",
         "return_to_store_link_label": "продовжити покупки",
         "print_link_label": "Друк чека",
         "payment_information_title": "Платіжна інформація",
         "shipping_information_title": "інформація про доставку",
-        "page_title": "Спасибі, %{display_name}!",
+        "page_title": "Дякую, %{display_name}!",
         "page_title_no_name": "Спасибі!",
         "cancelled_page_title": "Замовлення скасоване",
         "customer_information_title": "Інформація про клієнта",
@@ -639,7 +639,7 @@
         "re-order": "Повторно замовити ті ж товари",
         "confirmed": "Підтверджено",
         "thank_you_title": "Ваше замовлення підтверджено",
-        "thank_you_confirmed_order_with_email": "Незабаром ви отримаєте електронного листа з підтвердженням та номером замовлення.",
+        "thank_you_confirmed_order_with_email": "Незабаром ви отримаєте електронний лист з підтвердженням та номером замовлення.",
         "thank_you_confirmed_order_with_phone": "Незабаром ви отримаєте SMS з підтвердженням та номером замовлення.",
         "thank_you_confirmed_order_with_email_and_phone": "Незабаром ви отримаєте електронний лист та SMS з підтвердженням та номером замовлення.",
         "thank_you_confirmed_order_with_email_pick_up": "Ви отримаєте електронного листа, як тільки замовлення можна буде забирати.",
