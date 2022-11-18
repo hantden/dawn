@@ -291,7 +291,7 @@
         "total_label": "Усього",
         "total_outstanding_label": "Сума до оплати",
         "partial_total_label": "Усього",
-        "free_total_label": "Безкоштовно",
+        "free_total_label": "Згідно тарифу",
         "paid_label": "Сплачено",
         "payment_due_label": "Термін здійснення платежу",
         "vat_label_html": "У тому числі %{amount} у вигляді податків",
