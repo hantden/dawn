@@ -1394,7 +1394,7 @@
         "load_model": "Завантажити тривимірну модель {{ index }} у засіб перегляду галереї",
         "load_video": "Завантажити відео {{ index }} у засіб перегляду галереї",
         "image_available": "Зображення {{ index }} доступне у засобі перегляду галереї",
-        "open_media": "Відкрити медіа-файли у модальному вікні {{ index }}",
+        "open_media": "Відкрити медіа-файли {{ index }} у модальному вікні",
         "play_model": "Відкрити об'ємну модель",
         "play_video": "Відтворити відео"
       },
@@ -1423,7 +1423,7 @@
       "sold_out": "Продано",
       "unavailable": "Недоступно",
       "vendor": "Продавець",
-      "video_exit_message": "{{ title }} - у тому ж вікні відкривається повноекранне відео.",
+      "video_exit_message": "{{ title }} – у тому ж вікні відкривається повноекранне відео.",
       "view_full_details": "Переглянути всю інформацію",
       "xr_button": "Переглядайте у реальних умовах",
       "xr_button_label": "Під час перегляду реальних умов елемент завантажується у вікні доповненої реальності",
@@ -1630,6 +1630,33 @@
       "play_slideshow": "Відтворити слайд-шоу",
       "carousel": "Карусель",
       "slide": "Слайд"
+    },
+    "cart": {
+      "title": "Кошик",
+      "caption": "Товари в кошику",
+      "remove_title": "Видалити {{ title }}",
+      "subtotal": "Всього",
+      "new_subtotal": "432917549942958",
+      "note": "Вкажіть додаткову інформацію",
+      "checkout": "Купити",
+      "empty": "Ваш кошик пустий",
+      "cart_error": "",
+      "cart_quantity_error_html": "",
+      "taxes_and_shipping_policy_at_checkout_html": "",
+      "taxes_included_but_shipping_at_checkout": "",
+      "taxes_included_and_shipping_policy_html": "",
+      "taxes_and_shipping_at_checkout": "",
+      "headings": {
+        "product": "Товар",
+        "price": "Ціна",
+        "total": "Всього",
+        "quantity": "Кількість"
+      },
+      "update": "Оновити",
+      "login": {
+        "title": "Маєш аккаунт?",
+        "paragraph_html": ""
+      }
     }
   }
 }
