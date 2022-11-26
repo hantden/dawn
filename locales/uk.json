@@ -283,7 +283,7 @@
         "no_pickup_location": "Для замовлення недоступний самовивіз. Вкажіть адресу доставки.",
         "tip_label": "Порада",
         "calculating_shipping": "Розраховується...",
-        "shipping_default_value": "Розраховується на наступному етапі",
+        "shipping_default_value": "По тарифам перевізника",
         "shipping_pending_value": "-",
         "shipping_pending_message": "Поки що недоступно",
         "shipping_policy_link": "Вартість доставки",
