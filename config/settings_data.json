@@ -41,7 +41,7 @@
             "type": "link_list",
             "settings": {
               "heading": "Посилання",
-              "menu": "main-menu"
+              "menu": "footer"
             }
           },
           "footer-1": {
