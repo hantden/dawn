@@ -68,7 +68,7 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Подписаться на новости",
+          "newsletter_heading": "Підписатись на новини",
           "show_social": true,
           "enable_country_selector": true,
           "enable_language_selector": false,
