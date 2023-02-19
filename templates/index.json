@@ -96,20 +96,15 @@
         },
         "16433904230f2ec593-2": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
-            "collection": "вантажівки"
+            "collection": ""
           }
         },
         "9af36075-05f3-4ecc-b10d-eaf089e7edfd": {
           "type": "featured_collection",
           "settings": {
             "collection": "для-дрифту"
-          }
-        },
-        "926e9f45-6049-4f71-bc8e-cdefc91bee16": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "раллі"
           }
         },
         "623fa573-6193-4071-9147-531064f6f0a6": {
@@ -149,7 +144,6 @@
         "16433904230f2ec593-1",
         "16433904230f2ec593-2",
         "9af36075-05f3-4ecc-b10d-eaf089e7edfd",
-        "926e9f45-6049-4f71-bc8e-cdefc91bee16",
         "623fa573-6193-4071-9147-531064f6f0a6",
         "65e6435c-d78b-4948-b00c-e71909dba9e0",
         "76d58922-4c89-4607-801d-8522f1d094d1",
@@ -169,7 +163,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
+        "title": "Рекомендовані товари",
         "collection": "all",
         "products_to_show": 8,
         "color_scheme": "background-1",
