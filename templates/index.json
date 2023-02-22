@@ -20,6 +20,7 @@
         },
         "button": {
           "type": "buttons",
+          "disabled": true,
           "settings": {
             "button_label_1": "Каталог",
             "button_link_1": "shopify:\/\/collections",
@@ -43,7 +44,7 @@
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false
@@ -277,6 +278,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "c036406e-54a5-4981-a9db-e0d5226f8db6": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "template--15632644473047__c036406e-54a5-4981-a9db-e0d5226f8db6-16770835298d1502ec-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--15632644473047__c036406e-54a5-4981-a9db-e0d5226f8db6-16770835298d1502ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15632644473047__c036406e-54a5-4981-a9db-e0d5226f8db6-16770835298d1502ec-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Каталог",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--15632644473047__c036406e-54a5-4981-a9db-e0d5226f8db6-16770835298d1502ec-0",
+        "template--15632644473047__c036406e-54a5-4981-a9db-e0d5226f8db6-16770835298d1502ec-1",
+        "template--15632644473047__c036406e-54a5-4981-a9db-e0d5226f8db6-16770835298d1502ec-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/cover-gr-mob.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -286,6 +332,7 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "multicolumn",
+    "c036406e-54a5-4981-a9db-e0d5226f8db6"
   ]
 }
