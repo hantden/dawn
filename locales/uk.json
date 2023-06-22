@@ -1222,20 +1222,10 @@
     },
     "filters": {
       "availability": {
-        "label": "Доступність",
         "value": {
           "in_stock": "В наявності",
           "out_of_stock": "Немає в наявності"
         }
-      },
-      "vendor": {
-        "label": "Бренд"
-      },
-      "price": {
-        "label": "Ціна"
-      },
-      "product_type": {
-        "label": "Вид товару"
       }
     },
     "search": {
